@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Movie Trivia</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<link rel="stylesheet" type="text/css" href="main.css"/>
+	<link href="https://fonts.googleapis.com/css?family=Limelight" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="app.js"></script>
+	<script type="text/javascript" src="datastore.js"></script>
+</head>
+<body>
+	<header role="banner">
+		<div class="row">
+			<div class="col-12">
+				<img src="https://cdn3.iconfinder.com/data/icons/food-icons-3/512/popcorn-512.png" class="logo-img" alt="Popcorn image">
+				<h1>Movie Trivia</h1>
+				<div class="header-right">
+					<ul class="stats">
+						<li>Score: <span class="js-score">0</span></li>
+						<li>Question: <span class="js-question-number">0</span>/<span class="js-total-questions"></span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</header>
+	<main role="main">
+		<section>
+			<div class="startQuiz">
+				<img src="https://www.verdict.co.uk/wp-content/uploads/2017/10/shutterstock_384996514.jpg" alt="movie theatre image">
+				<h2>This quiz will test your knowledge on all things movies. Ready to start the show?</h2>
+				<p>You will have <span class="firstWarning">30 seconds</span> to answer each question. Pay attention to the timer at the top! If it hits 0, you get that question wrong!</p>
+				<button class="js-start button">Start</button>
+			</div>
+		</section>
+		<section>
+			<div class="js-answer-form"></div>
+		</section>
+	</main>
+</body>
+</html>
