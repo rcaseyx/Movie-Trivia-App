@@ -69,7 +69,7 @@ main {
   margin-right: auto;
   width: 95%;
   border-radius: 25px;
-  background-color: rgba(98, 100, 98, 0.43);
+  background-color: #363636;
   padding: 50px;
   font-size: 14px;
 }
@@ -82,7 +82,7 @@ main {
 .js-question, .js-feedback, .js-result-div {
   text-align: center;
   border-radius: 25px;
-  background-color: rgba(98, 100, 98, 0.43);
+  background-color: #363636;
   padding: 20px;
   margin-top: 100px;
   opacity: 1;
@@ -108,11 +108,11 @@ fieldset {
 }
 
 input {
-  border: 0; 
-  clip: rect(0 0 0 0); 
-  overflow: hidden; 
-  padding: 0; 
-  position: absolute; 
+  border: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
   width: 1px;
 }
 
@@ -180,13 +180,14 @@ label:active {
 }
 
 .warning {
-  color: red;
+  color: #ff0101;
   font-size: 50px;
   font-weight: 900;
 }
 
 .firstWarning {
-  color: red;
+  color: #ff0101;
+  font-size: 28px;
 }
 
 .js-answer-form {

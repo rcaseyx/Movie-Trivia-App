@@ -47,7 +47,7 @@ function renderQuestion() {
 	if (questionNumber < STORE.length) {
 		return `<div class="js-question">
         <div>
-          <h3><span class="js-timer">30</span></h3>
+          <span class="js-timer">30</span>
         </div>
         <form>
           <fieldset>
@@ -178,7 +178,7 @@ function renderResultsHtml(img,alt,title,msg,pct) {
 function renderResults(result) {
 	let score = Math.floor((result / STORE.length) * 100);
 
-	//still repetitive, but a lot cleaner now. 
+	//still repetitive, but a lot cleaner now.
 
 	if(score === 100) {
 		$('.js-answer-form').html(renderResultsHtml(perfect.image,perfect.alt,perfect.title,perfect.msg,score));
